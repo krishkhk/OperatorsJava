@@ -1,0 +1,42 @@
+//x=4
+// ++x=5 : x++=4
+// --x=3 : x--=4
+
+package Operators;
+
+public class Increaments {
+
+	public static void main(String[] args) {
+		int a=10;
+		System.out.println("----Pre Increament-----");
+		System.out.println("A = "+a);
+		int b= ++a; //a=a+1;10+1=11
+		System.out.println("b = "+b);
+		System.out.println("A = "+a);
+		
+		System.out.println("----Post Increament----");
+		int x=13;
+		System.out.println("x = "+x);//13
+		int y=x++;
+		System.out.println("y = "+y);
+		System.out.println("y = "+x);
+		
+		System.out.println("----Pre Decreament-----");
+		int c=14;
+		System.out.println("c = "+c);//14
+		int d=--c;//d=d-1=14-1=13
+		System.out.println("c = "+c);
+		System.out.println("d = "+d);
+		
+		System.out.println("-----Post Decreament---- ");
+		
+		int m=9;
+		System.out.println("m = "+m);
+		int n=m--;
+		System.out.println("n = "+n);
+		System.out.println("m = "+m);
+		
+
+	}
+
+}
